@@ -19,8 +19,8 @@ for extension in extensions:
         os.makedirs(dir_name)
     if "edge" in extensions[extension]:
         request = requests.get(edge_download_url.format(extensions[extension]["edge"]))
+        full_file_name = f"{dir_name}/{file_name}_edge.crx"
         if request.status_code == 200:
-            full_file_name = f"{dir_name}/{file_name}_edge.crx"
             with open(full_file_name, "wb") as f:
                 f.write(request.content)
             print(f"{full_file_name} download successful")
@@ -28,10 +28,11 @@ for extension in extensions:
             print(f"{full_file_name} download failed: {request.status_code} | {request.reason}")
     if "chrome" in extensions[extension]:
         request = requests.get(chrome_download_url.format(extensions[extension]["chrome"]))
+        full_file_name = f"{dir_name}/{file_name}_chrome.crx"
         if request.status_code == 200:
-            full_file_name = f"{dir_name}/{file_name}_chrome.crx"
             with open(full_file_name, "wb") as f:
                 f.write(request.content)
             print(f"{full_file_name} download successful")
         else:
             print(f"{full_file_name} download failed: {request.status_code} | {request.reason}")
+

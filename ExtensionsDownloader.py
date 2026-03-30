@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import shutil
 
 import requests
 
@@ -9,11 +10,14 @@ chrome_download_url = "https://clients2.google.com/service/update2/crx?response=
 
 with open("extensions.json", "r", encoding="utf-8") as f:
     extensions = json.load(f)
-
+if not os.path.exists("Extensions"):
+    os.makedirs("Extensions")
+extensions_names = []
 for extension in extensions:
     illegal_chars = r'[\/\\:\*\?"<>|]'
     file_name = re.sub(illegal_chars, " ", extension)
     file_name = ' '.join(file_name.split())
+    extensions_names.append(file_name)
     dir_name = f"Extensions/{file_name}"
     if not os.path.exists(dir_name):
         os.makedirs(dir_name)
@@ -35,4 +39,6 @@ for extension in extensions:
             print(f"{full_file_name} download successful")
         else:
             print(f"{full_file_name} download failed: {request.status_code} | {request.reason}")
-
+for dir_name in os.listdir("Extensions"):
+    if dir_name not in extensions_names:
+        shutil.rmtree(dir_name)

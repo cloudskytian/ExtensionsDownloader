@@ -41,4 +41,4 @@ for extension in extensions:
             print(f"{full_file_name} download failed: {request.status_code} | {request.reason}")
 for dir_name in os.listdir("Extensions"):
     if dir_name not in extensions_names:
-        shutil.rmtree(dir_name)
+        shutil.rmtree(f"Extensions/{dir_name}")

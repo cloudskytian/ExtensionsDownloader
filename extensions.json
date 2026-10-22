@@ -1,76 +1,87 @@
 {
-    "Buster: Captcha Solver for Humans":{
-        "edge":"admkpobhocmdideidcndkfaeffadipkc",
-        "chrome":"mpbjkejclgfgadiemmefgebjfooflfhl"
-    },
-    "Aria2 Explorer":{
-        "edge":"jjfgljkjddpcpfapejfkelkbjbehagbh",
-        "chrome":"mpkodccbngfoacfalldjimigbofkhgjn"
-    },
-    "Charset":{
-        "edge":"ljameaionljangkhnobkellagnjjohno",
-        "chrome":"oenllhgkiiljibhfagbfogdbchhdchml"
-    },
-    "Cookie Editor":{
-        "edge":"penmdkecfcminilmhclkfjjkbnlfdgci",
-        "chrome":"hpggkibcoihnkijdjikppfkhbfepjohl"
-    },
-    "Ctool 程序开发常用工具":{
-        "edge":"cihekagpnnadjjplgljkmkpcfiopfplc",
-        "chrome":"ipfcebkfhpkjeikaammlkcnalknjahmh"
-    },
-    "Global Speed: 视频速度控制":{
-        "edge":"mjhlabbcmjflkpjknnicihkfnmbdfced",
-        "chrome":"jpbjcnkcffbooppibceonlgknpkniiff"
-    },
-    "Header Editor":{
-        "edge":"afopnekiinpekooejpchnkgfffaeceko",
-        "chrome":"eningockdidmgiojffjmkdblpjocbhgh"
-    },
-    "Live Stream Downloader":{
-        "edge":"ngjclnbcdbahekojpkhancmiobdahemb",
-        "chrome":"looepbdllpjgdmkpdcdffhdbmpbcfekj"
-    },
-    "MAX Video Downloader":{
-        "chrome":"kjinbaahkmjgkkedfdgpkkelehofieke"
-    },
-    "SmartProxy":{
-        "edge":"canbjhbbhfggbdfgpddpnckdjgfcbnpb",
-        "chrome":"jogcnplbkgkfdakgdenhlpcfhjioidoj"
-    },
-    "User-Agent Switcher and Manager":{
-        "edge":"cnjkedgepfdpdbnepgmajmmjdjkjnifa",
-        "chrome":"bhchdcejhohfmigjafbampogmaanbfkg"
-    },
-    "Wayback Machine":{
-        "edge":"kjmickeoogghaimmomagaghnogelpcpn",
-        "chrome":"fpnmgdkabkmnadcjpehmlllkndpkmiak"
-    },
-    "floccus bookmarks sync":{
-        "edge":"gjkddcofhiifldbllobcamllmanombji",
-        "chrome":"fnaicdffflnofjppbagibeoednhnbjhg"
-    },
-    "uBlock Origin":{
-        "edge":"odfafepnkmbhccpbejgmiehpchacaeak",
-        "chrome":"cjpalhdlnbpafiamejdnhcphjbkeiagm"
-    },
-    "扩展管理器（Extension Manager）":{
-        "edge":"pifijhmfdnkanlcnecpifkmjbfoopokf",
-        "chrome":"efajbgpnlnobnkgdcgcnclngeolnmggp"
-    },
-    "暴力猴":{
-        "edge":"eeagobfjdenkkddmbclomhiblgggliao",
-        "chrome":"jinjaccalgkegednnccohejagnlnfdag"
-    },
     "极右搜索":{
         "edge":"lkjbgdlfaadnmkeflanndladggkinnkb"
     },
-    "篡改猴":{
+    "aria2-explorer":{
+        "edge":"jjfgljkjddpcpfapejfkelkbjbehagbh",
+        "chrome":"mpkodccbngfoacfalldjimigbofkhgjn"
+    },
+    "buster-captcha-solver-for":{
+        "edge":"admkpobhocmdideidcndkfaeffadipkc",
+        "chrome":"mpbjkejclgfgadiemmefgebjfooflfhl"
+    },
+    "charset":{
+        "edge":"ljameaionljangkhnobkellagnjjohno",
+        "chrome":"oenllhgkiiljibhfagbfogdbchhdchml"
+    },
+    "cookie-editor":{
+        "edge":"penmdkecfcminilmhclkfjjkbnlfdgci",
+        "chrome":"hpggkibcoihnkijdjikppfkhbfepjohl"
+    },
+    "ctool-程序开发常用工具":{
+        "edge":"cihekagpnnadjjplgljkmkpcfiopfplc",
+        "chrome":"ipfcebkfhpkjeikaammlkcnalknjahmh"
+    },
+    "extension-manager":{
+        "edge":"pifijhmfdnkanlcnecpifkmjbfoopokf",
+        "chrome":"efajbgpnlnobnkgdcgcnclngeolnmggp"
+    },
+    "fastforward":{
+        "edge":"ldcclmkclhomnpcnccgbgleikchbnecl",
+        "chrome":"icallnadddjmdinamnolclfjanhfoafe"
+    },
+    "floccus-bookmarks-sync":{
+        "edge":"gjkddcofhiifldbllobcamllmanombji",
+        "chrome":"fnaicdffflnofjppbagibeoednhnbjhg"
+    },
+    "global-speed-video-speed":{
+        "edge":"mjhlabbcmjflkpjknnicihkfnmbdfced",
+        "chrome":"jpbjcnkcffbooppibceonlgknpkniiff"
+    },
+    "header-editor":{
+        "edge":"afopnekiinpekooejpchnkgfffaeceko",
+        "chrome":"eningockdidmgiojffjmkdblpjocbhgh"
+    },
+    "keepass-tusk-password-acc":{
+        "chrome":"fmhmiaejopepamlcjkncpgpdjichnecm"
+    },
+    "live-stream-downloader":{
+        "edge":"ngjclnbcdbahekojpkhancmiobdahemb",
+        "chrome":"looepbdllpjgdmkpdcdffhdbmpbcfekj"
+    },
+    "max-video-downloader":{
+        "chrome":"kjinbaahkmjgkkedfdgpkkelehofieke"
+    },
+    "proxy-switchyomega-3-zero":{
+        "edge":"dmaldhchmoafliphkijbfhaomcgglmgd",
+        "chrome":"pfnededegaaopdmhkdmcofjmoldfiped"
+    },
+    "read-frog-ai-translation":{
+        "edge":"cbcbomlgikfbdnoaohcjfledcoklcjbo",
+        "chrome":"modkelfkcfjpgbfmnbnllalkiogfofhb"
+    },
+    "tampermonkey":{
         "edge":"iikmkjmpaadaobahmlepeloendndfphd",
         "chrome":"dhdgffkkebhmkfjojejmpbldmpobfkfo"
     },
-    "陪读蛙 - 开源沉浸式翻译":{
-        "edge":"cbcbomlgikfbdnoaohcjfledcoklcjbo",
-        "chrome":"modkelfkcfjpgbfmnbnllalkiogfofhb"
+    "ublock-origin":{
+        "edge":"odfafepnkmbhccpbejgmiehpchacaeak",
+        "chrome":"cjpalhdlnbpafiamejdnhcphjbkeiagm"
+    },
+    "user-agent-switcher-and-manager":{
+        "edge":"cnjkedgepfdpdbnepgmajmmjdjkjnifa",
+        "chrome":"bhchdcejhohfmigjafbampogmaanbfkg"
+    },
+    "violentmonkey":{
+        "edge":"eeagobfjdenkkddmbclomhiblgggliao",
+        "chrome":"jinjaccalgkegednnccohejagnlnfdag"
+    },
+    "wayback-machine":{
+        "edge":"kjmickeoogghaimmomagaghnogelpcpn",
+        "chrome":"fpnmgdkabkmnadcjpehmlllkndpkmiak"
+    },
+    "webrtc-control":{
+        "edge":"eepeadgljpkkjpbfecfkijnnliikglpl",
+        "chrome":"fjkmabmdepjfammlpliljpnbhleegehm"
     }
 }

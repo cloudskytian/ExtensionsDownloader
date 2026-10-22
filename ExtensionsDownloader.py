@@ -35,15 +35,19 @@ def download_file(url, full_file_name, max_retries=5):
 
 with open("extensions.json", "r", encoding="utf-8") as f:
     extensions = json.load(f)
-if not os.path.exists("Extensions"):
-    os.makedirs("Extensions")
+root_path = "Extensions"
+if not os.path.exists(root_path):
+    os.makedirs(root_path)
 extensions_names = []
+for dir in os.listdir(root_path):
+    if dir not in extensions:
+        os.remove(f"{root_path}/{dir}")
 for extension in extensions:
     illegal_chars = r'[\/\\:\*\?"<>|]'
     file_name = re.sub(illegal_chars, " ", extension)
     file_name = ' '.join(file_name.split())
     extensions_names.append(file_name)
-    dir_name = f"Extensions/{file_name}"
+    dir_name = f"{root_path}/{file_name}"
     if not os.path.exists(dir_name):
         os.makedirs(dir_name)
     if "edge" in extensions[extension]:
@@ -64,6 +68,6 @@ for extension in extensions:
             print(f"{full_file_name} download successful")
         else:
             print(f"{full_file_name} download failed: {request.status_code} | {request.reason}")
-for dir_name in os.listdir("Extensions"):
+for dir_name in os.listdir(root_path):
     if dir_name not in extensions_names:
-        shutil.rmtree(f"Extensions/{dir_name}")
+        shutil.rmtree(f"{root_path}/{dir_name}")

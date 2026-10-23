@@ -41,7 +41,7 @@ if not os.path.exists(root_path):
 extensions_names = []
 for dir in os.listdir(root_path):
     if dir not in extensions:
-        os.remove(f"{root_path}/{dir}")
+        shutil.rmtree(f"{root_path}/{dir}")
 for extension in extensions:
     illegal_chars = r'[\/\\:\*\?"<>|]'
     file_name = re.sub(illegal_chars, " ", extension)
